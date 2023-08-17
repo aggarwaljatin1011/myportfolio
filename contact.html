@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin-Portfolio:Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+        
+        #contact{
+            color:rgb(153, 153, 226);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="navbar">
+            <div class="left">
+               <img src="https://cdn3.vectorstock.com/i/1000x1000/53/97/ja-logo-design-premium-letter-logo-design-vector-37075397.jpgg" alt="logo"> 
+               <p>&nbsp;Jatin's Portfolio</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" id = "home">Home</a></li>
+                    <li><a href="about.html" id = "about">About</a></li>
+                    <!-- <li><a href="hobbies.html" id = "hobbies">Hobbies</a></li> -->
+                    <li><a href="projects.html" id = "projects">Projects</a></li>
+                    <li><a href="contact.html" id = "contact">Contact Me</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>Contact me for more <span class="purple">Information!</span></h1>
+             <div class="support">
+                <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;Call Now : +91-7014464764
+             </div>
+             <div class="supportbox">
+                <h2>Enter your <span class="purple">Details</span></h2>
+                <form action="https://formspree.io/f/mnqkpgyg" method="POST">
+                    <input type="text" name="name" placeholder="Enter your Name">
+                    <input type="email" name="email" placeholder="Enter your Email-id">
+                    <input type="number" name="phone" placeholder="Enter your Phone Number">
+                    <textarea name="query" id="" cols="30" rows="5"placeholder="Enter your Query here"></textarea>
+                    <button id = "btn"  onclick="alertm()">Submit Now</button>
+                </form>
+             </div>
+        </div>
+        <hr>
+        <section class="git">
+            <div class="imp">
+                You Can <span class="purple">Follow</span> me at
+            </div>
+            <div class="follow">
+                <div class="follow_item"><i class="fa fa-instagram"></i><a href="https://instagram.com/aggarwaljatin1011?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">aggarwaljatin1011</a></div>
+                <div class="follow_item"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/jatin.aggarwal.16503">Jatin Aggarwal</a></div>
+                <div class="follow_item"><i class="fa fa-youtube"></i><a href="https://youtube.com/@jatinaggarwal7810">jatinaggarwal7810</a></div>
+                <div class="follow_item"><i class="fa fa-github"></i><a href="https://github.com/aggarwaljatin1011">aggarwaljatin1011</a></div>
+                <div class="follow_item"><i class="fa fa-envelope"></i><a href="">aggarwaljatin1011@gmail.com</a></div>
+                <div class="follow_item"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/jatin-aggarwal-46595122b">Jatin Aggarwal</a></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_cr">
+            Copyright &copy; 2023 Jatin Aggarwal. All Rights Reserved.
+        </div>
+    </footer>
+    <script>
+        const btn = document.getElementById('btn');
+        function alertm(){
+            alert("Your query has been recorded");
+        }
+
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "nav") {
+                x.className += "responsive";
+            }
+            else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+    

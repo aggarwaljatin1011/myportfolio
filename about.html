@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin-Portfolio:About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #about{
+            color:rgb(153, 153, 226);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="navbar">
+            <div class="left">
+               <img src="https://cdn3.vectorstock.com/i/1000x1000/53/97/ja-logo-design-premium-letter-logo-design-vector-37075397.jpgg" alt="logo"> 
+               <p>&nbsp;Jatin's Portfolio</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" id = "home">Home</a></li>
+                    <li><a href="about.html" id = "about">About</a></li>
+                    <!-- <li><a href="hobbies.html" id = "hobbies">Hobbies</a></li> -->
+                    <li><a href="projects.html" id = "projects">Projects</a></li>
+                    <li><a href="contact.html" id = "contact">Contact Me</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section id="edu">
+        <h2 >Education</h2>
+        <div class="edu">
+            <div class="edu1">
+                <img src="Images/ab1.jpg" alt="">
+                <div>
+                    <a href="https://www.iiests.ac.in/"><h6 class="purple">Indian Institute of Engineering Science and Technology, Shibpur</h6></a>
+                    B.Tech in Information Technology <br>2020-2024
+                </div>
+            </div>
+            <div class="edu2">
+                <img src="Images/ab2.jpg" alt="">
+                <div>
+                    <a href="http://www.sacredheartcstsgnr.com/"><h6 class="purple">Sacred Heart Sr. Sec Convent School, Sriganganagar</h6></a>
+                    Completed higher secondary education <br>2016-2020
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="ie">
+        <h2 >Internship Experience</h2>
+        <div class="ie">
+            <div class="ie1">
+                <div>
+                    <a href="https://www.iiests.ac.in/"><h6 class="purple">Baoiam Innovations Pvt. Ltd.</h6></a>
+                    Position : Website Developer Intern <br>June 2023 - August 2024
+                </div>
+                <img src="Images/ab3.jpeg" alt="">
+            </div>
+            <div class="ie2">
+                <div>
+                    <a href="http://www.sacredheartcstsgnr.com/"><h6 class="purple">Engineer Core in association with IIIT Allahabad</h6></a>
+                    Position : HTML/CSS Course cum Project Intern<br>June 2023 - July 2023
+                </div>
+                <img src="Images/ab4.jpeg" alt="">
+            </div>
+            <div class="ie3">
+                <div>
+                    <a href="http://www.sacredheartcstsgnr.com/"><h6 class="purple">ID Labels and Solutions Pvt. Ltd.</h6></a>
+                    Position : Software Developer Intern <br>June 2022 - July 2022
+                </div>
+                <img src="Images/ab5.jpg" alt="">
+            </div>
+            <div class="ie4">
+                <div>
+                    <a href="http://www.sacredheartcstsgnr.com/"><h6 class="purple">Internship Studio</h6></a>
+                    Position : Campus Ambassador Intern <br>Mar 2022 - April 2022
+                </div>
+                <img src="Images/ab6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="skills">
+        <h2>SKILLS</h2>
+        <div class="skills_con">
+            <p>C</p>
+            <p>C++</p>
+            <p>Python</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+            <p>MySql</p>
+            <p>DSA</p>
+            <p>VSCode</p>
+            <p>Brackets</p>
+            <p>Google Colab</p>
+            <p>Jupyter Notebook</p>
+            <p>pgAdmin</p>
+            <p>Github</p>
+            <p>Formspree</p>
+            <p>C#</p>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_cr">
+            Copyright &copy; 2023 Jatin Aggarwal. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "nav") {
+                x.className += "responsive";
+            }
+            else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+</html>

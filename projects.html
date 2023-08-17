@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin-Portfolio:Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #projects{
+            color:rgb(153, 153, 226);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="navbar">
+            <div class="left">
+               <img src="https://cdn3.vectorstock.com/i/1000x1000/53/97/ja-logo-design-premium-letter-logo-design-vector-37075397.jpgg" alt="logo"> 
+               <p>&nbsp;Jatin's Portfolio</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html" id = "home">Home</a></li>
+                    <li><a href="about.html" id = "about">About</a></li>
+                    <!-- <li><a href="hobbies.html" id = "hobbies">Hobbies</a></li> -->
+                    <li><a href="projects.html" id = "projects">Projects</a></li>
+                    <li><a href="contact.html" id = "contact">Contact Me</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="p1">
+            <div class="describe">
+                The<span class="purple"> Projects</span> I worked or currently I am woring on!
+            </div>
+            <div class="pj pj1">
+                <div class="pj_left pj1_left">
+                    <h3 class="purple">Facial Emotion Recognition</h3>
+                    <p>This project is made using transfer learning.Here you can detect the emotion on your face by just using the live webcam or by uploading an image. The result will be displayed whether the emotion on the face in the image is angry , sad , happy , disguise and others.</p>
+                </div>
+                <div class="pj_right pj1_right">
+                        <img src="Images/pj1.jpg" alt="pj1">
+                </div>
+            </div>
+            <hr>
+            <div class="pj pj2">
+                <div class="pj_left pj2_left">
+                    <img src="Images/pj2.jpeg" alt="pj1">
+                </div>
+                <div class="pj_right pj2_right">
+                    <h3 class="purple">Furniture Fitting Shop Website</h3>
+                    <p>This project is made using HTML, CSS and JavaScript. This is the frontend project made for a local furniture fittings shop(Bansal Hardware) which showcases all the details of the shop and the products and services it provides.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="pj pj3">
+                <div class="pj_left pj3_left">
+                    <h3 class="purple">Tic Tac Toe Game</h3>
+                    <p>This project is made using C programming language.
+                        This game is made solely for the entertainment basis where single player can compete against computer. Along with enjoying this game also helps to develop skills and strategies.
+                    </p>
+                </div>
+                <div class="pj_right pj3_right">
+                    <img src="Images/pj3.jpeg" alt="pj1">
+                </div>
+            </div>
+            <hr>
+            <div class="pj pj4">
+                <div class="pj_left pj4_left">
+                    <img src="Images/pj4.jpg" alt="pj1">
+                </div>
+                <div class="pj_right pj4_right">
+                    <h3 class="purple">Stone, Paper and Scissors Game</h3>
+                    <p>This project is made using C programming language. This is the frontend project made for a local furniture fittings shop(Bansal Hardware) which showcases all the details of the shop and the products and services it provides.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="pj pj5">
+                <div class="pj_left pj5_left">
+                    <h3 class="purple">Music Store Data Analysis</h3>
+                    <p>This project is made using SQL programming language.
+                        This project has a database for handling the music store which consits of several tables. This project is illustrate using some Queries and their solutions.
+                    </p>
+                </div>
+                <div class="pj_right pj5_right">
+                    <img src="Images/pj5.png" alt="pj1">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer_cr">
+                Copyright &copy; 2023 Jatin Aggarwal. All Rights Reserved.
+            </div>
+        </footer>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "nav") {
+                x.className += "responsive";
+            }
+            else {
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+</html>
